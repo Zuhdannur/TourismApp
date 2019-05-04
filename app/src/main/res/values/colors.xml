@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F8F6FA</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="signColor">#007AE8</color>
+    <color name="endColor">#00A9F4</color>
+    <color name="white_status">#757575</color>
+    <color name="color_bot_nav">#F5F7FB</color>
+    <color name="color_tag">#C4C4C4</color>
+    <color name="fab_yellow">#FFDD11</color>
+    <color name="black_card">#2E2E2E</color>
+    <color name="gray">#EEEEEE</color>
+    <color name="choose">#FFDD11</color>
+    <color name="krem">#FFF8D1</color>
+</resources>

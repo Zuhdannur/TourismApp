@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="@android:color/white"
+             tools:context=".Fragment.Payment.PaymentSecondFragment">
+
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+        <View android:layout_width="match_parent"
+              android:layout_marginTop="5dp"
+              android:background="@color/colorPrimary"
+              android:layout_height="1dp"/>
+        <TextView android:layout_width="match_parent"
+                  android:text="Time Left: 19:20:15"
+                  android:gravity="center"
+                  android:layout_marginTop="16dp"
+                  android:textColor="@android:color/black"
+                  android:layout_height="wrap_content"/>
+        <View android:layout_width="match_parent"
+              android:layout_marginTop="50dp"
+              android:background="@color/colorPrimary"
+              android:layout_height="1dp"/>
+        <RelativeLayout android:layout_width="match_parent"
+                        android:id="@+id/header"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:padding="16dp"
+                        android:layout_height="200dp">
+            <View
+                    android:background="@drawable/radius_card"
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+            />
+            <ImageView android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/ovo"
+                       android:id="@+id/logoPembayaran"
+                       android:layout_centerHorizontal="true"
+                       android:layout_marginTop="24dp"
+            />
+            <TextView android:layout_width="wrap_content"
+                      android:gravity="center"
+                      android:layout_below="@id/logoPembayaran"
+                      android:layout_centerHorizontal="true"
+                      android:text="PT. TOURIED INDONESIA \n0822 400 300 15"
+                      android:layout_height="wrap_content"/>
+        </RelativeLayout>
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_below="@id/header"
+                      android:layout_marginLeft="36dp"
+                      android:layout_marginTop="28dp"
+                      android:layout_marginRight="36dp"
+                      android:orientation="vertical"
+                      android:layout_height="wrap_content">
+            <LinearLayout android:layout_width="match_parent"
+                          android:orientation="horizontal"
+                          android:weightSum="2"
+                          android:layout_height="wrap_content">
+                <TextView android:layout_width="0dp"
+                          android:layout_weight="1"
+                          android:text="Price"
+                          android:textColor="@android:color/black"
+                          android:layout_height="wrap_content"/>
+                <TextView android:layout_width="0dp"
+                          android:layout_weight="1"
+                          android:text="Rp 50.000"
+                          android:gravity="right"
+                          android:textColor="@android:color/black"
+                          android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent"
+                          android:orientation="horizontal"
+                          android:weightSum="2"
+                          android:layout_marginTop="16dp"
+                          android:layout_height="wrap_content">
+                <TextView android:layout_width="0dp"
+                          android:layout_weight="1"
+                          android:text="Unique Code"
+                          android:textColor="@android:color/black"
+                          android:layout_height="wrap_content"/>
+                <TextView android:layout_width="0dp"
+                          android:layout_weight="1"
+                          android:text="Rp 251"
+                          android:gravity="right"
+                          android:textColor="@android:color/black"
+                          android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_marginTop="16dp"
+                          android:orientation="horizontal"
+                          android:weightSum="2"
+                          android:layout_height="wrap_content">
+                <TextView android:layout_width="0dp"
+                          android:layout_weight="1"
+                          android:textStyle="bold"
+                          android:text="Total Transfer"
+                          android:textColor="@android:color/black"
+                          android:layout_height="wrap_content"/>
+                <TextView android:layout_width="0dp"
+                          android:textStyle="bold"
+                          android:layout_weight="1"
+                          android:text="Rp 50.251"
+                          android:gravity="right"
+                          android:textColor="@android:color/black"
+                          android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+            <TextView android:layout_width="match_parent"
+                      android:padding="16dp"
+                      android:gravity="center"
+                      android:background="@color/krem"
+                      android:layout_marginTop="10dp"
+                      android:text="Please Transfer till 3 last digit"
+                      android:textColor="@android:color/black"
+                      android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <Button android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textStyle="bold"
+                android:id="@+id/btnMakePayment"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="18dp"
+                android:text="CONFIRM PAYMENT"
+                android:background="@drawable/button_chooser"
+        />
+    </RelativeLayout>
+
+</FrameLayout>

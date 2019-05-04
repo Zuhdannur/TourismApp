@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--<pl.hypeapp.materialtimelineview.MaterialTimelineView-->
+            <!--android:id="@+id/material_timeline_view"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:background="@color/colorPrimary"-->
+            <!--app:timeline_top_radio_color="@android:color/white"-->
+            <!--app:timeline_bottom_radio_color="@android:color/white"-->
+            <!--app:timeline_line_color="@android:color/white"-->
+            <!--app:timeline_type="item"-->
+            <!--app:timeline_position="first"-->
+            <!--app:timeline_margin_start="32dp"-->
+            <!--app:timeline_radio_outline_radius="20"-->
+            <!--app:timeline_radio_radius="12">-->
+
+        <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="HELLO WORLD"-->
+                <!--android:textColor="@android:color/black"-->
+                <!--app:layout_constraintBottom_toBottomOf="parent"-->
+                <!--app:layout_constraintEnd_toEndOf="parent"-->
+                <!--app:layout_constraintStart_toStartOf="parent"-->
+                <!--app:layout_constraintTop_toTopOf="parent"/>-->
+
+    <!--</pl.hypeapp.materialtimelineview.MaterialTimelineView>-->
+
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:padding="16dp"
+                android:layout_height="80dp">
+    <com.makeramen.roundedimageview.RoundedImageView
+            android:layout_width="wrap_content"
+            android:src="@drawable/image_4"
+            app:riv_corner_radius="10dp"
+            android:id="@+id/profile"
+            android:layout_height="wrap_content"/>
+
+    <TextView android:layout_width="wrap_content"
+              android:text="Cindy Pratama"
+              android:textColor="@android:color/black"
+              android:layout_toRightOf="@id/profile"
+              android:id="@+id/name"
+              android:layout_height="wrap_content"/>
+    <TextView android:layout_width="wrap_content"
+              android:text="My first Post I hope all my fans enjoy it"
+              android:layout_below="@id/name"
+              android:textSize="12sp"
+              android:layout_toRightOf="@id/profile"
+              android:layout_height="wrap_content"/>
+
+</RelativeLayout>
